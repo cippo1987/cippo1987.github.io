@@ -4,5 +4,6 @@ title: Primo Post
 date: 2016-05-10
 ---
 
-Seguendo la guida di [Berry Clark](https://github.com/barryclark/jekyll-now) sono riuscito ad arrivare fin qui!
-ma gia impapplalalsdada 
+This blog exists thanks to the guide of [Berry Clark](https://github.com/barryclark/jekyll-now).
+
+

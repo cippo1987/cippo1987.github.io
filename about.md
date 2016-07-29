@@ -23,5 +23,5 @@ During the degree I spent some months with an Erasmus project at the Universidad
 
 
 ### Contact me
-You can find my CV [Here](/image/cv.pdf)
+You can find my CV [Here](/image/Federico_Brivio_CV.pdf)
 [federico.brivio87@gmail.com](mailto:federico.brivio87@gmail.com)

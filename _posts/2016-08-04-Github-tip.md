@@ -14,7 +14,8 @@ Markdown language inside Github is often updated, so what I write is valid as I 
 
 If you want to include an image according to Github flavoured MD the code syntax is the following:
 
-```![keyword](url)``` ```
+```![keyword](url)
+```
 
 
 This includes a un-resized left-aligned image in the text.
@@ -48,11 +49,13 @@ If you have a cleaner, more elegant solution that works on Jekyll on Github with
 Here the failing examples:
 
 
-```This is spongebob:
+```
+This is spongebob:
 
 ![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
 
-This was spongebob.```
+This was spongebob.
+```
 
 
 This is spongebob:
@@ -61,12 +64,27 @@ This is spongebob:
 
 This was spongebob. 
 
-```This is spongebob:
+```
+This is spongebob:
 
 ![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
 
-This was spongebob.``` 
+This was spongebob.
+``` 
 
+This is spongebob:
+
+![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
+
+This was spongebob.
+
+```
+This is spongebob:
+
+![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png | height=25 )
+
+This was spongebob.
+```
 
 This is spongebob:
 
@@ -74,13 +92,13 @@ This is spongebob:
 
 This was spongebob. 
 
+```
+This is spongebob:
 
-```This is spongebob:
+![keyword](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png){: .center-image }
 
-![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png | height=25 )
-
-This was spongebob.```
-
+This was spongebob.
+```
 
 This is spongebob:
 
@@ -88,11 +106,13 @@ This is spongebob:
 
 This was spongebob. 
 
-```This is spongebob:
+```
+This is spongebob:
 
-![keyword](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png){: .center-image }
+<img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25">
 
-This was spongebob.```
+This was spongebob. 
+```
 
 This is spongebob:
 
@@ -101,17 +121,15 @@ This is spongebob:
 This was spongebob. 
 
 
-```This is spongebob:
 
-<img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25">
-
-This was spongebob. ```
-
-```This is spongebob:
+```
+This is spongebob:
 
 <img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width=25>
 
-This was spongebob.```
+This was spongebob.
+```
+
 
 This is spongebob:
 
@@ -119,6 +137,14 @@ This is spongebob:
 
 This was spongebob.
 
+
+```
+This is spongebob:
+
+<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" ></center>
+
+This was spongebob. 
+```
 This is spongebob:
 
 <center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" ></center>

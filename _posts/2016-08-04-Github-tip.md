@@ -14,7 +14,7 @@ Markdown language inside Github is often updated, so what I write is valid as I 
 
 If you want to include an image according to Github flavoured MD the code syntax is the following:
 
-```![keyword](url)```
+```![keyword](url)``` ```
 
 
 This includes a un-resized left-aligned image in the text.
@@ -23,14 +23,14 @@ If you want a resized centered image, it is more complicated. For what I learned
 
 I wanted to find the simpliest possible solution that could be directly used on Github. 
 
-Accordingly to my experience the following codes did **not** work:
+Accordingly to my experience the following codes did **not** work to obtain a centered 250px pic:
 
 *  ```![keyword](url =250x)```
 *  ```![keyword](url | height=250)```
 *  ```![keyword](url){: .center-image }```
-*  ```<img src="url" width="size">```
-*  ```<img align="middle" src="url" width="size">```
-*  ```<center><img src="url" width="size"></center>```
+*  ```<img src="url" width="250">```
+*  ```<img align="middle" src="url" width="250">```
+*  ```<center><img src="url" width="250"></center>```
 
 They might work on the wiki, or they might have worked in past versions of Github, or if used in the proper way by an user more expert than myself. But for my experience they all failed.
 
@@ -40,7 +40,25 @@ I solve the problem with a dirty workaround:
 * ```<center><img src="url" width="size"> <left>```
  
 
-The <left> tag is necessary to restore the correct flow of text since the </center> tag is not recognised.
+The ```<left>``` tag is necessary to restore the correct flow of text since the </center> tag is not recognised.
 
 
 If you have a cleaner, more elegant solution that works on Jekyll on Github without using plugins, or compiling the website locally, please let me know!
+
+Here the failing examples:
+
+
+*  ```![keyword](url =250x)```
+![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
+ 
+*  ```![keyword](url | height=250)```
+![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png | height=25 )
+
+*  ```![keyword](url){: .center-image }```
+![keyword](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png){: .center-image }
+* ```<img  align="middle" src="url" width="size">```
+<img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25">
+* ```<img  align="middle" src="url" width=size>```
+<img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width=25>
+*  ```<center><img src="url" width="size"></center>```
+<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" ></center>

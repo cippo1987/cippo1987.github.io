@@ -49,16 +49,36 @@ Here the failing examples:
 
 
 *  ```![keyword](url =250x)```
+
+This is spongebob:
 ![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
- 
+This was spongebob. 
+
 *  ```![keyword](url | height=250)```
+
+This is spongebob:
 ![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png | height=25 )
+This was spongebob. 
 
 *  ```![keyword](url){: .center-image }```
+
+This is spongebob:
 ![keyword](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png){: .center-image }
+This was spongebob. 
+
 * ```<img  align="middle" src="url" width="size">```
+
+This is spongebob:
 <img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25">
+This was spongebob. 
+
 * ```<img  align="middle" src="url" width=size>```
+
+This is spongebob:
 <img  align="middle" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width=25>
+This was spongebob.
+
 *  ```<center><img src="url" width="size"></center>```
+This is spongebob:
 <center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" ></center>
+This was spongebob. 

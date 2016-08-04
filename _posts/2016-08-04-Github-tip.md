@@ -27,7 +27,7 @@ Accordingly to my experience the following codes did **not** work:
 *  ```![keyword](url){: .center-image }```
 *  ```<img src="url" width="size">```
 *  ```<img align="middle" src="url" width="size">```
-*  ```<center><img src="url" width="size"></center>```   
+*  ```<center><img src="url" width="size"></center>```
 
 They might work on the wiki, or they might have worked in past versions of Github, or if used in the proper way by an user more expert than myself. But for my experience they all failed.
 

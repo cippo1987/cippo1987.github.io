@@ -14,9 +14,8 @@ Markdown language inside Github is often updated, so what I write is valid as I 
 
 If you want to include an image according to Github flavoured MD the code syntax is the following:
 
-```
-![keyword](url)
-```
+```![keyword](url)```
+
 
 This includes a un-resized left-aligned image in the text.
 

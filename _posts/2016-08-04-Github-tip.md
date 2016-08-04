@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github tip"
+title: "Centered Image on Github with Jekyll"
 date: 2016-08-04
 ---
 
@@ -28,6 +28,9 @@ Accordingly to my experience the following codes did **not** work:
 *  ```<img src="url" width="size">```
 *  ```<img align="middle" src="url" width="size">```
 *  ```<center><img src="url" width="size"></center>```   
+
+They might work on the wiki, or they might have worked in past version of the code, or if used in the proper way by an user more expert than myself.
+
 
 I solve the problem with a dirty workaround:
 * ```<center><img src="url" width="size"> <left>```

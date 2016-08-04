@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Github tip"
+date: 2016-08-04
+---
+
 Probably I am not a great blogger, but for sure I am not an expert on website visualization.
 To write my first blog I struggled to include images the way I wanted. Markdown language is quite minimal, and sometimes it is difficult to stretch it to have the desired results.
 

@@ -31,17 +31,16 @@ Accordingly to my experience the following codes did **not** work to obtain a ce
 *  ```![keyword](url){: .center-image }```
 *  ```<img src="url" width="250">```
 *  ```<img align="middle" src="url" width="250">```
-*  ```<center><img src="url" width="250"></center>```
+
 
 They might work on the wiki, or they might have worked in past versions of Github, or if used in the proper way by an user more expert than myself. But for my experience they all failed.
 
 
 I solve the problem with a dirty workaround:
 
-* ```<center><img src="url" width="size"> <left>```
- 
+*  ```<center><img src="url" width="250"></center>```
 
-The ```<left>``` tag is necessary to restore the correct flow of text since the </center> tag is not recognised.
+
 
 
 If you have a cleaner, more elegant solution that works on Jekyll on Github without using plugins, or compiling the website locally, please let me know!
@@ -137,6 +136,7 @@ This is spongebob:
 
 This was spongebob.
 
+Finally the working example that resizes and centers the image is:
 
 ```
 This is spongebob:
@@ -150,3 +150,5 @@ This is spongebob:
 <center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25" ></center>
 
 This was spongebob. 
+
+

@@ -43,7 +43,7 @@ I solve the problem with a dirty workaround:
 
 If you have a cleaner, more elegant solution that works on Jekyll on Github without using plugins, or compiling the website locally, please let me know!
 
-### Here it is some of the example reported followed by their output.
+#### Some examples and relatives outputs:
 
 ```
 This is spongebob:

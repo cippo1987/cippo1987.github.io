@@ -41,15 +41,11 @@ I solve the problem with a dirty workaround:
 *  ```<center><img src="url" width="250"></center>```
 
 The ```<left|center|right>``` tags works also for the text.
-<justify>
-And if you want also the justify option can be used
-</justify>
 
 
 If you have a cleaner, more elegant solution that works on Jekyll on Github without using plugins, or compiling the website locally, please let me know!
 
-Here all the examples with some different parameters.
-
+### Here it is some of the example reported followed by their output.
 
 ```
 This is spongebob:

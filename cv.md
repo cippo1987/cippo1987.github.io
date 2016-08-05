@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cv
+title: Curriculum Vitae
 permalink: /cv/
 ---
-This is my [CV](/images/Federico_Brivio_CV.pdf)
+A pdf copy of my CV is available  [HERE](/images/Federico_Brivio_CV.pdf)
 

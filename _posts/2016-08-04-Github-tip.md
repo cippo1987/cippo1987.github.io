@@ -46,7 +46,7 @@ The ```<left>``` tag is necessary to restore the correct flow of text since the 
 
 If you have a cleaner, more elegant solution that works on Jekyll on Github without using plugins, or compiling the website locally, please let me know!
 
-Here the failing examples:
+Here all the examples with some different parameters.
 
 
 ```
@@ -147,6 +147,6 @@ This was spongebob.
 ```
 This is spongebob:
 
-<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" ></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width=25 ></center>
 
 This was spongebob. 

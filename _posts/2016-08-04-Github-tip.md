@@ -141,12 +141,12 @@ This was spongebob.
 ```
 This is spongebob:
 
-<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" ></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25" ></center>
 
 This was spongebob. 
 ```
 This is spongebob:
 
-<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width=25 ></center>
+<center><img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png" width="25" ></center>
 
 This was spongebob. 

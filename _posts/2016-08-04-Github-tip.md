@@ -67,14 +67,14 @@ This was spongebob.
 ```
 This is spongebob:
 
-![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
+![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25)
 
 This was spongebob.
 ``` 
 
 This is spongebob:
 
-![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25x)
+![spongebob](https://upload.wikimedia.org/wikipedia/en/5/5c/Spongebob-squarepants.png =25)
 
 This was spongebob.
 

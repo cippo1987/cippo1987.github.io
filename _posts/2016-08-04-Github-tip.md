@@ -40,7 +40,9 @@ I solve the problem with a dirty workaround:
 
 *  ```<center><img src="url" width="250"></center>```
 
-The ```<left|center|right>``` tags works also for the text.
+The ```<left|center|right>``` tags can be used also to change the alignment of the text.
+
+<right> Example </right>
 
 
 If you have a cleaner, more elegant solution that works on Jekyll on Github without using plugins, or compiling the website locally, please let me know!
